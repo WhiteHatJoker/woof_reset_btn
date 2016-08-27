@@ -156,11 +156,12 @@ function woof_init_orderby() {
 
 function woof_init_reset_button() {
     jQuery('.woof_reset_search_form').life('click', function () {
-	//var link = jQuery(this).data('link');
+	var link = jQuery(this).data('link');
 	woof_ajax_page_num = 1;
 	if (woof_is_permalink) {
 	    woof_current_values = {};
-	    woof_submit_link(woof_get_submit_link().split("page/")[0]);
+	    //woof_submit_link(woof_get_submit_link().split("page/")[0]);
+	    woof_submit_link(link);
 	    //woof_submit_link(woof_get_submit_link());
 	} else {
 	    var link = woof_shop_page;
