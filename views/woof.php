@@ -476,7 +476,7 @@ if (!function_exists('woof_print_item_by_key'))
 			    ?>
 
 			    <?php if ($woof_reset_btn_txt != 'none'): ?>
-				<button style="float: right;" class="button woof_reset_search_form" data-link="<?php echo $woof_link ?>"><?php echo $woof_reset_btn_txt ?></button>
+				<button style="float: right;" class="button woof_reset_search_form" data-link="http://your_link"><?php echo $woof_reset_btn_txt ?></button>
 			    <?php endif; ?>
 			<?php endif; ?>
 
