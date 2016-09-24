@@ -4,7 +4,7 @@ If you have installed the Woocommerce Products Filter (woof) plugin and you have
 ## Instructions ##
 1. You need to have the woof plugin installed or downloaded.
 2. Download current repository and place the contents within woof plugin directory overwriting changes.
-3. Open `views/woof.php` and replace the http://your_link on line 479 `data-link="http://your_link"` with your url where you would like your users to go when they hit refresh.
+3. Open `views/woof.php` and replace the http://your_link on [line 479](views/woof.php#L479) `data-link="http://your_link"` with your url where you would like your users to go when they hit refresh.
 4. Enjoy!
 
 ## Note ##
